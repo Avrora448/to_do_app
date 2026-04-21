@@ -1,7 +1,7 @@
 import 'dart:collection';
 
 import 'package:flutter/cupertino.dart';
-import 'package:solo_tu/models/task.dart';
+import 'package:to_do_app/models/task.dart';
 
 class TaskProvider extends ChangeNotifier {
   final List<Task> _tasks = [
