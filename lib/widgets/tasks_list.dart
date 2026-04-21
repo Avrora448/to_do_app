@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:solo_tu/models/task_provider.dart';
-import 'package:solo_tu/widgets/task_tile.dart';
+import 'package:to_do_app/widgets/task_tile.dart';
+import '../models/task_provider.dart';
 
 
 
