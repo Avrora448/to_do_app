@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:solo_tu/models/task_provider.dart';
-import 'package:solo_tu/screens/tasks_screen.dart';
+import '../models/task_provider.dart';
 
 class AddTaskScreen extends StatelessWidget{
    const AddTaskScreen({super.key});
@@ -56,7 +55,6 @@ class AddTaskScreen extends StatelessWidget{
          ),
        ),
      );
-    throw UnimplementedError();
   }
 
 }
